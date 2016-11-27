@@ -25,6 +25,7 @@ GameObject:
   - 114: {fileID: 114000012419494506}
   - 114: {fileID: 114000013033198610}
   - 114: {fileID: 114000012982142570}
+  - 95: {fileID: 95000014124872744}
   m_Layer: 0
   m_Name: ball
   m_TagString: Player
@@ -39,8 +40,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013687318030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -13.72, z: 0}
-  m_LocalScale: {x: 0.2802456, y: 0.2790431, z: 0.6794575}
+  m_LocalPosition: {x: 0, y: -11.49, z: 0}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +76,24 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0.01, y: 0.03}
   serializedVersion: 2
-  m_Radius: 3.09
+  m_Radius: 16.61
+--- !u!95 &95000014124872744
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013687318030}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e80e23e7f455b1b4fa90673fa1dda268, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114000012419494506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -102,8 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28b9ce3fa1999ae4fb681baefefddea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0, g: 0, b: 0, a: 0}
-  color2: {r: 0, g: 0, b: 0, a: 0}
+  color1: {r: 0.16078432, g: 0.5019608, b: 0.7254902, a: 0}
+  color2: {r: 0.49803922, g: 0.54901963, b: 0.5529412, a: 0}
   canvas: {fileID: 0}
   im1: {fileID: 0}
   im2: {fileID: 0}
@@ -156,7 +174,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 58d18d91389134d46874874a6ea0fa78, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bc07352f8c290634a8ad49f52fc6d5b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

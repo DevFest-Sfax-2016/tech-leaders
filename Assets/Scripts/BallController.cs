@@ -25,8 +25,21 @@ public class BallController : MonoBehaviour {
     void Update()
     {
 
+        if (Input.touchCount > 0)
+        {
+            var touch = Input.GetTouch(0);
+            if (touch.position.x > Screen.width / 2)
+            {
 
+                rgb.velocity = (Vector2.right * speed * Time.deltaTime);
+                Debug.Log("GetKey(KeyCode.RightArrow)");
+            }
+            if (touch.position.x < Screen.width / 2)            {
 
+                rgb.velocity = (-Vector2.right * speed * Time.deltaTime);
+                Debug.Log("GetKey(KeyCode.LeftArrow)");
+            }
+        }
         if (Input.GetKey(KeyCode.RightArrow) /*&& !hitWall*/ )
         {
 
@@ -40,6 +53,7 @@ public class BallController : MonoBehaviour {
             rgb.velocity = (-Vector2.right * speed * Time.deltaTime);
             Debug.Log("GetKey(KeyCode.LeftArrow)");
         }
+
 
         //if (Input.touchCount > 0)
         //{

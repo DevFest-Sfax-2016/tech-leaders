@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class InstantiateCarré : MonoBehaviour {
+public class InstantiateCarre : MonoBehaviour {
 
     public List<GameObject> Prefabs;
     public List<GameObject> EnemyPrefabs;
