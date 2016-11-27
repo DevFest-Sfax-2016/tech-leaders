@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "124408607858",
+    "firebase_url": "https://tech-leaders.firebaseio.com",
+    "project_id": "tech-leaders",
+    "storage_bucket": "tech-leaders.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124408607858:android:bbb89cceaa67a334",
+        "android_client_info": {
+          "package_name": "com.Drira.Ahmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124408607858-3aq7jrejrfp6bq83uhnenlfudr7abnfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2alFb-j8AHYv-4yY0F1qAMj9UCjf_jQQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
